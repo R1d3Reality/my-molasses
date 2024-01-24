@@ -22,28 +22,28 @@ export default function HomePage() {
               width="100px"
               height="100px"
               className="absolute bottom-0 left-3/4 w-60"
-              src="/public/images/a1.webp"
+              src="/images/a1.webp"
               alt=""
             />
             <img
               width="100px"
               height="100px"
               className="absolute -left-8 top-12 w-80"
-              src="/public/images/a2.webp"
+              src="/images/a2.webp"
               alt=""
             />
             <img
               width="100px"
               height="100px"
               className="absolute -top-4 right-0 w-96"
-              src="/public/images/a3.webp"
+              src="/images/a3.webp"
               alt=""
             />
             <img
               width="100px"
               height="100px"
               className="absolute bottom-0 left-14 w-96"
-              src="/public/images/a4.webp"
+              src="/images/a4.webp"
               alt=""
             />
           </div>
@@ -86,7 +86,7 @@ export default function HomePage() {
           </div>
           <div className="mt-12 lg:mt-0 grid sm:grid-cols-9 gap-x-7 col-span-4">
             <ServicesCard
-              img="/src/assets/images/branding.webp"
+              img="/images/branding.webp"
               alt="branding"
               title="Branding & Identity"
               description="We craft powerful brand identities that leave a lasting
@@ -96,7 +96,7 @@ export default function HomePage() {
             />
 
             <ServicesCard
-              img="/src/assets/images/ux.webp"
+              img="/images/ux.webp"
               alt="ux"
               title="User Experience (UX)"
               description="Our UX design services prioritize intuitive and delightful user
@@ -106,7 +106,7 @@ export default function HomePage() {
             />
 
             <ServicesCard
-              img="/src/assets/images/webdevelopment.webp"
+              img="/images/webdevelopment.webp"
               alt="web development"
               title="Web Development"
               description="We create visually stunning and functional websites that engage
