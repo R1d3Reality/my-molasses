@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    /* border: 1px solid red */
+  }
+
+  @font-face {
+    font-family: "Satoshi";
+    src: url("src/assets/fonts/Satoshi-Black.woff2") format("woff2");
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Satoshi";
+    src: url("src/assets/fonts/Satoshi-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Satoshi";
+    src: url("src/assets/fonts/Satoshi-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Satoshi";
+    src: url("src/assets/fonts/Satoshi-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+}
+
+@layer base {
+  p {
+    @apply text-base font-medium;
+  }
+  h2 {
+    @apply text-xl lg:text-2xl font-satoshi font-extrabold;
+  }
+  h3 {
+    @apply text-lg font-extrabold;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply px-[5%] md:px-[3%] pt-20 md:pt-[8%];
+  }
+}
