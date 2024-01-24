@@ -22,28 +22,28 @@ export default function HomePage() {
               width="100px"
               height="100px"
               className="absolute bottom-0 left-3/4 w-60"
-              src="/src/assets/images/a1.webp"
+              src="/public/images/a1.webp"
               alt=""
             />
             <img
               width="100px"
               height="100px"
               className="absolute -left-8 top-12 w-80"
-              src="/src/assets/images/a2.webp"
+              src="/public/images/a2.webp"
               alt=""
             />
             <img
               width="100px"
               height="100px"
               className="absolute -top-4 right-0 w-96"
-              src="/src/assets/images/a3.webp"
+              src="/public/images/a3.webp"
               alt=""
             />
             <img
               width="100px"
               height="100px"
               className="absolute bottom-0 left-14 w-96"
-              src="/src/assets/images/a4.webp"
+              src="/public/images/a4.webp"
               alt=""
             />
           </div>

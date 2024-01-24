@@ -31,7 +31,7 @@ export default function Hero() {
             muted
             loop={true}
           >
-            <source src="/src/assets/videos/hero1.webm" type="video/webm" />
+            <source src="/public/videos/hero1.webm" type="video/webm" />
           </video>
         </div>
       </motion.div>
